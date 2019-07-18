@@ -1,9 +1,9 @@
 from numpy import *
 import matplotlib.pyplot as plt
-X_data = loadtxt("data/movie review/X_train.txt")
+X_data = loadtxt("data/X_train.txt")
 print (X_data.shape)
 X = X_data
-y_data = loadtxt("data/movie review/y_train.txt", dtype = int)
+y_data = loadtxt("data/y_train.txt", dtype = int)
 print (y_data.shape)
 y = y_data
 from sklearn.utils import shuffle
